@@ -8,6 +8,7 @@ The goal of this project is not to create a clinical diagnostic tool, but to:
 - compare multiple classification algorithms
 - practice the CRISP-DM methodology
 - build a fully reproducible data science workflow
+
 We use the Wisconsin Diagnostic Breast Cancer dataset, which includes 569 samples and 30 numerical features describing tumor cell characteristics. Each sample is labeled as benign or malignant.
 
 ## Project Goal
@@ -17,19 +18,21 @@ Models included:
 - Random Forest Classifier
 - Support Vector Machine (Linear kernel)
 - Support Vector Machine (RBF kernel)
+
 We evaluate models using accuracy, precision, recall, F1-score and ROC–AUC, then choose the best-performing classifier.
 
 ## Notebook Sections
 Section	Description
-Task 1 — Setup – Repository creation & environment preparation
-Task 2 — Business Understanding – Goals, success criteria, risks
-Task 3 — Data Understanding – Data inspection, cleaning, EDA
-Task 4 — Data Preparation – Train/test split, scaling, encoding
-Modeling – Train 4 different ML models
-Evaluation – Metrics, confusion matrices, ROC curve
-Feature Analysis – Feature importance (Random Forest)
-Results & Conclusions – Comparison and final discussion
-The notebook is fully executable from top to bottom and contains comments explaining each step.
+Task 1 — Imports
+Task 2 — Loading data
+Task 3 — Data cleaning
+Task 4 — Exploratory analysis
+Task 5 – Data preparing
+Task 6 – Modeling dataset with 4 models
+Task 7 – ROC curve and confusion matrixes
+Task 8 – Feature importance analysis (Random Forest)
+
+The notebook is fully executable from top to bottom and contains comments explaining steps.
 
 ## How to Reproduce the Analysis
 Follow these steps to run the notebook exactly as the authors did.
@@ -42,9 +45,6 @@ You need Python 3.8+. The project uses:
 - scikit-learn
 
 Install all dependencies with:
-- pip install -r requirements.txt
-
-If you don’t have a requirements.txt, install manually:
 - pip install pandas numpy matplotlib seaborn scikit-learn
 
 ### 2. Open the Jupyter Notebook
