@@ -49,6 +49,7 @@ If you don’t have a requirements.txt, install manually:
 
 ### 2. Open the Jupyter Notebook
 - jupyter notebook
+
 Then open:
 - DataScienceProject.ipynb
 
