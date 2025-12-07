@@ -23,14 +23,14 @@ We evaluate models using accuracy, precision, recall, F1-score and ROC–AUC, th
 
 ## Notebook Sections
 Section	Description
-Task 1 — Imports
-Task 2 — Loading data
-Task 3 — Data cleaning
-Task 4 — Exploratory analysis
-Task 5 – Data preparing
-Task 6 – Modeling dataset with 4 models
-Task 7 – ROC curve and confusion matrixes
-Task 8 – Feature importance analysis (Random Forest)
+- Task 1 — Imports
+- Task 2 — Loading data
+- Task 3 — Data cleaning
+- Task 4 — Exploratory analysis
+- Task 5 – Data preparing
+- Task 6 – Modeling dataset with 4 model
+- Task 7 – ROC curve and confusion matrixes
+- Task 8 – Feature importance analysis (Random Forest)
 
 The notebook is fully executable from top to bottom and contains comments explaining steps.
 
